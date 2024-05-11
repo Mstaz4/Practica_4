@@ -35,18 +35,37 @@ p {
   margin-bottom: 0;
 }
 
+nav {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 221px;
+  left: 1%;
+  width: 18%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+
 /* Estilos para la navegación */
 nav ul {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: column;
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 20px 0 20px 0;
+}
+
+nav li {
+  margin: 5px 0 5px 0;
+}
+
+main {
+  padding: 0 1% 0 20%;
 }
 
 section {
   border: 1px solid black; /* Agrega un borde negro de 1px */
   padding: 20px; /* Agrega espacio interno de 20px */
-  margin-bottom: 20px; /* Agrega margen inferior de 20px */
+  margin: 20px 0 20px 0; /* Agrega margen superior e inferior de 20px */
 }
